@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<title>КИП-АВТО</title>
+</head>
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1700);
+    });
+});
+</script>
+<body>
+	<div class="wrap">
+		<div class="side-bar"></div>
+		<div class="app">
+			<section class="first-section" id="yak1">
+				<div class="container">
+					<header class="header">
+						<div class="nav">
+							<div class="logo">
+								<img src="img/logo-temp.svg" alt="" class="logo-image">
+								<div class="full-logo-text">
+									<p>КИП</p>
+									<p>АВТОМАТИКА</p>
+								</div>
+							</div>
+							<ul class="menu" id="menu">
+								<li><a href="#yak1">ГЛАВНАЯ</a></li>
+								<li><a href="#yak2">УСЛУГИ</a></li>
+								<li><a href="#yak3">ПРОЕКТЫ</a></li>
+								<li><a href="#yak4">О НАС</a></li>
+								<li><a href="#yak5">КОНТАКТЫ</a></li>
+							</ul>
+						</div>
+					</header>
+					<div class="first-offer">
+						<div class="offer-block">
+							<h1>Лидеры в области автоматизирования</h1>
+							<p>С момента основания в 2015 году Компания предлагает высококачественные услуги в области автоматизации производства - от консультаций и проектирования до полноценной реализации под ключ.</p>
+							<div class="first-button">
+									<h2 class="button-text">Наши проекты</h2>
+									<img src="img/arrow.svg" alt="">
+							</div>
+						</div>
+						<div class="offer-image">
+							<img src="img/image-temp.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="second-section" id="yak2">
+				<div class="container">
+					<h2 class="serivices">Услуги</h2>
+					<div class="services-section">
+						<div class="serv-block-1">
+							<h3>Консультационные услуги</h3>
+							<div class="line"></div>
+							<ul class="serv">
+								<li>Консалтинг в области КИПиА и АСУТП</li>
+								<li>Аудит эффективности промышленных предприятий</li>
+							</ul>
+						</div>
+						<div class="serv-block-2">
+							<div class="serv-temp">
+								<h3>Реализация проектов под ключ</h3>
+								<div class="line"></div>
+								<ul class="serv">
+									<li>Проектирование</li>
+									<li>Поставка оборудования и ПО</li>
+									<li>Разработка прикладного ПО, алгоритмов и методов управления</li>
+									<li>Пуско-наладочные работы</li>
+								</ul>
+							</div>
+						</div>
+						<div class="serv-block-3">
+							<div class="serv-temp">
+								<h3>Сопровождение и поддержка</h3>
+								<div class="line"></div>
+								<ul class="serv">
+									<li>Обучение оперативного и обслуживающего персонала</li>
+									<li>Гарантийное и постгарантийное сопровождение</li>
+								</ul>
+							</div>
+						</div>
+				</div>
+			</section>
+			<section class="third-section" id="yak3">
+				<div class="container">
+					<h2 class="projects-header">Проекты</h2>
+					<div class="project-blocks">
+						<div class="project-block-1">
+							<h2 class="project-header">ОАО «ГМЗ»</h2>
+							<ul class="project-points">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+							</ul>
+							<h3 class="read-about">Прочитать отзыв</h3>
+						</div>
+						<div class="proj-line"></div>
+						<div class="project-block-2">
+							<h2 class="project-header">ООО «ИнтермиксМет»</h2>
+							<ul class="project-points">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+							</ul>
+							<h3 class="read-about">Прочитать отзыв</h3>
+						</div>
+						<div class="proj-line"></div>
+						<div class="project-block-3">
+							<h2 class="project-header">ООО «СтавСталь»</h2>
+							<ul class="project-points">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum non donec vitae magna.</li>
+							</ul>
+							<h3 class="read-about">Прочитать отзыв</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="fourth-section" id="yak4">
+				<div class="container">
+					<div class="fourth-sect">
+						<div class="about">
+							<h2 class="about-header">О НАС</h2>
+							<p>С момента основания в 2015 году Компания предлагает высококачественные услуги в области автоматизации производства -  от консультаций и проектирования до полноценной реализации под ключ.</p>
+							<p>За 6 лет Компания зарекомендовала себя надежным партнером в рамках реализации четырех крупных проектов.</p>
+							<p>С 2018 года технологический партнер Honeywell</p>
+						</div>
+						<div class="partners">
+							<div class="partners-section">
+								<h2 class="partners-header">ПАРТНЕРЫ</h2>
+								<div class="partners-block">
+									<div class="partner-section-1">
+										<img src="img/honeywell.svg" alt="">
+									</div>
+									<div class="partner-section-2">
+										<img src="img/stavstal.svg" alt="">
+									</div>
+									<div class="partner-section-3">
+										<img src="img/almazgroup.svg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="down-section" id="yak5">
+					<div class="down-blocks">
+						<footer class="footer">
+							<h2 class="footer-header">КОНТАКТЫ</h2>
+							<div class="info-section">
+								<div class="st-footer">
+									<h2>Центральный офис</h2>
+									<p>ул. Фрунзе, 96, Невинномысск, 357100, Россия</p>
+								</div>
+								<div class="st-footer">
+									<h2>Телефон</h2>
+									<p>+7 928 318-53-30</p>
+								</div>
+								<h3 class="small-info">© 2021 ООО «КИП-Автоматика»</h3>
+							</div>
+						</footer>
+						<div class="form-section">
+							<div class="form-position">
+								<h2 class="form-header">СВЯЖИТЕСЬ С НАМИ</h2>
+								<div class="form-block">
+									<form action="">
+										<input type="name" placeholder="Ваше имя">
+										<input type="phone" placeholder="Введите телефон">
+										<button>Отправить</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</body>
+</html>
