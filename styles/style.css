@@ -719,13 +719,13 @@ ul,li{
 	}
 
 	.services-section h3 {
-		font-size: 20px;
-		width: 240px;
+		font-size: 26px;
+		width: 265px;
 	}
 
 	.services-section li {
-		width: 242px;
-		font-size: 15px;
+		width: 265px;
+		font-size: 22px;
 		margin-bottom: 40px;
 	}
 
@@ -742,7 +742,7 @@ ul,li{
 	}
 
 	.line {
-		width: 234px;
+		width: 265px;
 		margin: 40px 0;
 	}
 
@@ -756,6 +756,8 @@ ul,li{
 	.project-blocks {
 		flex-direction: column;
 	}
+
+
 
 	.fourth-sect {
 		flex-direction: column;
@@ -780,7 +782,7 @@ ul,li{
 	}
 
 	.partners-block {
-		width: 385px;
+		width: 300px;
 	}
 
 	.partners-block img {
@@ -792,20 +794,25 @@ ul,li{
 	}
 
 	.partner-section-1 {
-		width: 180px;
-		height: 150px;
+		width: 140px;
+		height: 120px;
 	}
 
 	.partner-section-2 {
-		width: 180px;
-		height: 150px;
+		width: 140px;
+		height: 120px;
 	}
 
 	.partner-section-3 {
 		height: 150px;
+		margin-top: 0;
 	}
 
 	/*Футер*/
+
+	.down-section {
+		background-color: transparent;
+	}
 
 	.down-blocks {
 		grid-template-rows: 1fr 1fr;
@@ -824,6 +831,7 @@ ul,li{
     	grid-row-end: 3;
     	grid-column-start: 1;
     	grid-column-end: 1;
+    	margin-left: 25px;
 	}
 
 } 
