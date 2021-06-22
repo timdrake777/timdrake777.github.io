@@ -769,6 +769,14 @@ ul,li{
 
 	/*Проекты*/
 
+	.project-points {
+		display: none;
+	}
+
+	.accardion {
+		display: block;
+	}
+
 	.projects-header {
 		padding: 65px 0;
 		font-size: 21px;
