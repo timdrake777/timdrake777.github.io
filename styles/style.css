@@ -769,12 +769,10 @@ ul,li{
 
 	/*Проекты*/
 
-	.project-points {
-		display: none;
+	.project-points-block  {
 	}
 
 	.accardion {
-		display: block;
 	}
 
 	.projects-header {
