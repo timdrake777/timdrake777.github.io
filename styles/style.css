@@ -517,6 +517,14 @@ ul,li{
 	display: none;
 }
 
+.btn-section-2 {
+	display: none;
+}
+
+.btn-section-3 {
+	display: none;
+}
+
 /*Form*/
 
 .form-position {
@@ -881,6 +889,18 @@ ul,li{
 		display: block;
 	}
 
+	.btn-section-2 {
+		width: 12px;
+		height: 25px;
+		display: block;
+	}
+
+	.btn-section-3 {
+		width: 12px;
+		height: 25px;
+		display: block;
+	}
+
 	.minus-btn-1 {
 		display: none;
 	}
@@ -1112,6 +1132,18 @@ ul,li{
 		height: 25px;
 		display: block;
 	}
+
+	.btn-section-2 {
+		width: 12px;
+		height: 25px;
+		display: block;
+	}
+
+	.btn-section-3 {
+		width: 12px;
+		height: 25px;
+		display: block;
+	
 
 
 
