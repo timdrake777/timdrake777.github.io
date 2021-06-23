@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
 /* Основные элементы */
 
 body {
@@ -511,6 +513,10 @@ ul,li{
 	padding: 40px 0 40px 0;
 }
 
+.btn-section-1 {
+	display: none;
+}
+
 /*Form*/
 
 .form-position {
@@ -647,6 +653,7 @@ ul,li{
 	.button-text {
 		font-size: 14px;
 	}
+
 
 	/*Услуги*/
 
@@ -828,6 +835,7 @@ ul,li{
 
 	.project-blocks {
 		flex-direction: column;
+		padding-bottom: 40px;
 	}
 
 	.project-block-1 {
@@ -858,6 +866,31 @@ ul,li{
 
 	.about p {
 		width: 380px;
+	}
+
+	.plus-btn-1 {
+		margin-top: 5px;
+		width: 12px;
+		height: 12px;
+	}
+
+
+	.btn-section-1 {
+		width: 12px;
+		height: 25px;
+		display: block;
+	}
+
+	.minus-btn-1 {
+		display: none;
+	}
+
+	.close-plus {
+
+	}
+
+	.show-minus {
+		display: block;
 	}
 
 	/*Партнеры*/
@@ -1059,6 +1092,7 @@ ul,li{
 
 	.project-blocks {
 		flex-direction: column;
+		padding-bottom: 40px;
 	}
 
 	.project-block-1 {
@@ -1072,6 +1106,13 @@ ul,li{
 	.project-block-3 {
 		margin-bottom: 30px;
 	}
+
+	.btn-section-1 {
+		width: 12px;
+		height: 25px;
+		display: block;
+	}
+	
 
 
 
