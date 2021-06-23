@@ -66,6 +66,39 @@ ul,li{
 	margin: 0 auto;
 }
 
+.container-mobile {
+}
+
+.popup {
+	position: fixed;
+	height:100%;
+	width:100%;
+  	top: 0;
+  	left: 0;
+  	margin: auto;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.9);
+	position:fixed;
+	z-index: 1;
+	height:100%;
+	top: 0;
+	left: 0;
+	width:100%;
+}
+
+
+.popup_img {
+	position: relative;
+	margin-top: 60px;
+	z-index:2;
+	max-height:84%;
+	max-width:84%;
+}
+
 /*Header*/
 
 .logo {
@@ -265,6 +298,10 @@ ul,li{
 	letter-spacing: 0.05em;
 }
 
+.project-points {
+	height: 230px;
+}
+
 .project-points li {
 	margin-bottom: 20px;
     width: 250px;
@@ -279,7 +316,7 @@ ul,li{
 }
 
 .read-about {
-	margin-top: 40px;
+	margin: 20px 0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
@@ -687,6 +724,11 @@ ul,li{
 		margin: 0 auto;
 	}
 
+	.container-mobile {
+		width: 365px;
+		margin: 0 auto;
+	}
+
 	.menu {
 		display: none;
 	}
@@ -909,6 +951,11 @@ ul,li{
 	}
 
 	.container {
+		width: 365px;
+		margin: 0 auto;
+	}
+
+	.container-mobile {
 		width: 365px;
 		margin: 0 auto;
 	}
