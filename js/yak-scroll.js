@@ -26,18 +26,18 @@ $(document).ready( function() {
 		$('.project-points-block-3').hide();
 		$('.icon rect:nth-child(1)').attr('transform', 'rotate(0 4.79993 12)');
 
-		$('.btn-section-1').on("click",(function (e) {
+		$('#first-case').on("click",(function (e) {
 			$('.icon rect:nth-child(1)').toggleAttrVal('transform', 'rotate(-90 4.79993 12)', 'rotate(0 4.79993 12)');
 			$('.project-points-block-1').slideToggle();  
 		}));
 		
 
-		$('.btn-section-2').click(function (e) {
+		$('#second-case').click(function (e) {
 			$('.icon-2 rect:nth-child(1)').toggleAttrVal('transform', 'rotate(0 4.79993 12)', 'rotate(-90 4.79993 12)');
 			$('.project-points-block-2').slideToggle();
 		})
 
-		$('.btn-section-3').click(function (e) {
+		$('#third-case').click(function (e) {
 			$('.icon-3 rect:nth-child(1)').toggleAttrVal('transform', 'rotate(0 4.79993 12)', 'rotate(-90 4.79993 12)');
 			$('.project-points-block-3').slideToggle();
 		})
