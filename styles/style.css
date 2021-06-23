@@ -895,4 +895,231 @@ ul,li{
     	width: 320px;
 	}
 
+}
+
+
+@media only screen and (min-width: 414px) {
+	
+	/*Главные компоненты и первая секция*/
+
+	.nav {
+
+	}
+
+	.side-bar {
+		width: 40px;
+	}
+
+	.container {
+		width: 365px;
+		margin: 0 auto;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.menu li {
+		margin-left: 45px;
+		font-size: 13px;  
+	}
+
+	.first-offer {
+		margin-top: 35px;
+	}
+
+	.offer-image {
+		display: none;
+	}
+
+	.offer-image img {
+		width: 359px;
+    	height: 294px;
+	}
+
+	.offer-block h1 {
+		font-size: 33px;
+		width: 300px;
+	}
+
+	.offer-block p {
+		width: 320px;
+		font-size: 16px;
+	}
+
+	.first-button {
+		margin-top: 30px;
+		width: 270px;
+	}
+
+	.button-text {
+		font-size: 14px;
+	}
+
+	/*Услуги*/
+
+	.serivices {
+		padding: 65px 0;
+		font-size: 21px;
+	}
+
+	.services-section {
+		flex-direction: column;
+	}
+
+	.services-section h3 {
+		font-size: 26px;
+		width: 265px;
+	}
+
+	.services-section li {
+		width: 265px;
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+
+	.serv-block-1 {
+		margin-bottom: 40px;
+	}
+
+	.serv-block-2 {
+		margin-bottom: 40px;
+	}
+
+	.serv-block-3 {
+		margin-bottom: 40px;
+	}
+
+	.line {
+		width: 265px;
+		margin: 40px 0;
+	}
+
+	/*Проекты*/
+
+	.project-points-block  {
+	}
+
+	.accardion {
+	}
+
+	.projects-header {
+		padding: 65px 0;
+		font-size: 21px;
+	}
+
+	.project-header-case img {
+		display: block;
+	}
+
+	.project-blocks {
+		flex-direction: column;
+	}
+
+	.project-block-1 {
+		margin-bottom: 30px;
+	}
+
+	.project-block-2 {
+		margin-bottom: 30px;
+	}
+
+	.project-block-3 {
+		margin-bottom: 30px;
+	}
+
+
+
+	.fourth-sect {
+		flex-direction: column;
+	}
+
+	/*О нас*/
+
+	.about {
+		border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+		border-right: none;
+		width: 100%;
+	}
+
+	.about p {
+		width: 380px;
+	}
+
+	/*Партнеры*/
+
+	.partners {
+		width: 100%;
+	}
+
+	.partners-block {
+		width: 300px;
+	}
+
+	.partners-section {
+		margin-left: 0;
+	}
+
+	.partner-section-1 {
+		width: 140px;
+		height: 120px;
+	}
+
+	.partner-section-1 img:nth-child(1){
+		display: none;
+	}
+
+	.partner-section-1 img:nth-child(2){
+		display: block;
+	}
+
+	.partner-section-2 {
+		width: 140px;
+		height: 120px;
+	}
+
+	.partner-section-2 img:nth-child(1){
+		display: none;
+	}
+
+	.partner-section-2 img:nth-child(2){
+		display: block;
+	}
+
+	.partner-section-3 {
+		height: 150px;
+		margin-top: 0;
+	}
+
+	.partner-section-3 img:nth-child(1){
+		display: none;
+	}
+
+	.partner-section-3 img:nth-child(2){
+		display: block;
+	}
+
+	/*Футер*/
+
+
+	.down-blocks {
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	.form-section {
+		grid-row-start: 1;
+    	grid-row-end: 2;
+    	grid-column-start: 1;
+    	grid-column-end: 1;
+	}
+
+	.footer {
+		grid-row-start: 2;
+    	grid-row-end: 3;
+    	grid-column-start: 1;
+    	grid-column-end: 1;
+    	margin-left: 25px;
+    	width: 320px;
+	}
 } 
