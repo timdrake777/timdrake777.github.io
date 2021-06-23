@@ -887,19 +887,22 @@ ul,li{
 	.btn-section-1 {
 		width: 12px;
 		height: 25px;
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 
 	.btn-section-2 {
 		width: 12px;
 		height: 25px;
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 
 	.btn-section-3 {
 		width: 12px;
 		height: 25px;
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 
 	.minus-btn-1 {
@@ -1131,20 +1134,23 @@ ul,li{
 	.btn-section-1 {
 		width: 12px;
 		height: 25px;
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 
 	.btn-section-2 {
 		width: 12px;
 		height: 25px;
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 
 	.btn-section-3 {
 		width: 12px;
 		height: 25px;
-		display: block;
-	
+		display: flex;
+		align-items: center;
+	}
 
 
 
