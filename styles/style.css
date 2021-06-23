@@ -306,8 +306,8 @@ ul,li{
 
 .project-points li {
 	margin-bottom: 20px;
-    width: 250px;
-    font-size: 15px;
+    width: 280px;
+    font-size: 17px;
     list-style: disc;
     margin-left: 15px;
 }
@@ -318,7 +318,7 @@ ul,li{
 }
 
 .read-about {
-	margin: 20px 0;
+	margin: 40px 0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
@@ -1151,9 +1151,6 @@ ul,li{
 		display: flex;
 		align-items: center;
 	}
-
-
-
 
 	.fourth-sect {
 		flex-direction: column;
